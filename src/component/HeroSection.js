@@ -8,17 +8,14 @@ function HeroSection() {
         <div className='hero-container'>
 
             <video src="videos/video-2.mp4" autoPlay loop muted />
-            <h1>Welcome to our website</h1>
-            <p> What do you want to do ?</p>
+            <h1>Feel safe, be safe!</h1>
+            <p> Register your complain here.</p>
             <div className="hero-btns">
             <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Report Complain</Button>
-            <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>View Complain
-            <i className='far fa-play-circle' />
-            
-            </Button>
+            <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>View Complain</Button>
             </div>
         </div>
     )
 }
 
-export default HeroSection
+export default HeroSection;
